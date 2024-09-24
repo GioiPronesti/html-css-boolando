@@ -1,0 +1,36 @@
+/* Reset Rules*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:currentColor;
+}
+
+/*Layout Rules*/
+
+.main-container {
+    max-width: 1200px;
+    margin: 0, auto;
+    padding: 50px 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-33 {
+    width: calc(100 / 3);
+}
+
+/* Debug Rules*/
+
